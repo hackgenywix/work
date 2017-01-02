@@ -1,8 +1,11 @@
+import Singleton as Singleton
 
 if __name__ == '__main__':
     pass
-def read_code_parts(text_file="",spliter="$%#@"):
-    lines =  open(text_file, 'r').readlines()
+
+
+def read_code_parts(text_file="", spliter="$%#@"):
+    lines = open(text_file, 'r').readlines()
     agg = []
     code_parts = []
     for item in lines:
